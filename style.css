@@ -3,3 +3,91 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+* {
+    margin: 0px;
+    padding: 0px:
+}
+
+/* Utility Styles */
+
+.center-text {
+    text-align: center;
+}
+
+/* Nav Styles */
+
+.nav-main {
+    background-color: #FFDBAA;
+    display: flex;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.nav-header {
+    color: #553100;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
+    flex: 1;
+}
+
+/* .header-links { 
+    padding-left: 250px;
+}*/
+
+.header-button {
+    background-color: #805215;
+    color: white;
+    font-size: 22px;
+    margin: 15px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    flex: 1;
+}
+
+/* Section-One Styles */
+
+.section-one {
+    background-color: #D4A76A;
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.white-box {
+    background-color: white;
+    margin: 20px;
+    flex: 1;
+    box-shadow: 0px 0px 5px black;
+}
+
+.box-header {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.box-text {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.box-button {
+    margin: 10px;
+    height: 50px;
+    background-color: #805215;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: black;
+    width: 90%;
+}
+
+/* Section-Two Styles */
+
+.section-two {
+    background-color: #D4A76A;
+    display: flex;
+    padding: 20px;
+}
