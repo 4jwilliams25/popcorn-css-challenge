@@ -6,7 +6,7 @@ Main background - #D4A76A*/
 
 * {
     margin: 0px;
-    padding: 0px:
+    padding: 0px;
 }
 
 /* Utility Styles */
@@ -31,10 +31,6 @@ Main background - #D4A76A*/
     padding-left: 50px;
     flex: 1;
 }
-
-/* .header-links { 
-    padding-left: 250px;
-}*/
 
 .header-button {
     background-color: #805215;
@@ -61,6 +57,7 @@ Main background - #D4A76A*/
     margin: 20px;
     flex: 1;
     box-shadow: 0px 0px 5px black;
+    padding: 5px;
 }
 
 .box-header {
@@ -69,12 +66,11 @@ Main background - #D4A76A*/
 }
 
 .box-text {
-    padding: 10px;
     font-size: 14px;
+    padding: 5px;
 }
 
 .box-button {
-    margin: 10px;
     height: 50px;
     background-color: #805215;
     color: white;
@@ -82,6 +78,8 @@ Main background - #D4A76A*/
     font-weight: bold;
     border-color: black;
     width: 90%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 /* Section-Two Styles */
